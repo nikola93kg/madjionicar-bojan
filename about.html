@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>O meni</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style-about.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<div class="navbar-responsive">
+		<a href="index.html#head" class="active"><span>Magija bebo</span></a>
+		<div id="myLinks">
+			<a href="index.html#head">Početna</a>
+			<a href="about.html">O meni</a>
+			<a href="gallery.html">Galerija</a>
+			<a href="contact.html">Kontakt</a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<section>
+		<div class="navbar" id="navbar">
+			<nav>
+				<ul>
+					<li><a href="index.html#head">Početna</a></li>
+					<li><a href="about.html">O meni</a></li>
+					<li><a href="gallery.html">Galerija</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul>
+				<h3 class="animate__animated animate__backInLeft">Magija bebo</h3>
+			</nav>
+		</div>
+		<div class="light"></div>
+		<h2>Biografija</h2>
+		<div class="container">
+
+			<div class="txt">
+				<p>Bojan je rođen 1997. godine u Lazarevcu. Interesovanje za mađioničarstvo pokazao je još u svojoj 10.
+					godini kada je prvi put prisustvovao
+					mađioničarskom nastupu. Nedugo zatim, interesovanje je preraslo u ljubav, a ljubav u poziv, kada je
+					počeo da nastupa po dečijim rođendanima.
+					Paralelno sa tim, Bojan je nastavio da radi na učenju i usavršavanju da bi ubrzo stekao nova znanja
+					i veštine, kao i prvu mađioničarsku licencu. <br> <br>
+					Ubrzo zatim usledili su i mnogobrojni kongresi i domaća i međunarodna takmičenja i priznanja, kao
+					što je samit u Bugarskoj 2017.
+					godine, gde je Bojan osvojio 4. mesto sa tačkom sa kanapima i cigaretama. Pred kamerama se prvi put
+					pojavio i postao poznat široj javnosti
+					u takmičenju ,, Pinkove zvezde," zatim i u ,,Amig show-u," a bio je gost i u spotu Teodore
+					Džehverović za pesmu ,,Gasolina." <br> <br>
+					Danas iza sebe ima veliki broj uspešno realizovanih nastupa, humanitarnog i privatnog tipa, za decu
+					i odrasle, pojedince, javne ustanove
+					i korporacije, u zemlji i inostranstvu.</p>
+			</div>
+			<div class="photo">
+				<img src="img/1.1.png">
+			</div>
+		</div>
+
+
+	</section>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+		</script>
+	<script>
+		$(function () {
+			$(document).mousemove(function (e) {
+				var X = e.pageX;
+				var Y = e.pageY;
+				$('.light').css('background', 'radial-gradient(circle at ' + X + 'px ' + Y + 'px, transparent, #000 38%)');
+			});
+		});
+	</script>
+	<script src="js/script.js"></script>
+
+
+</body>
+
+</html>

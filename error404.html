@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page not found</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
+        rel="stylesheet">
+
+</head>
+<style>
+    /*******************ERROR STYLE*******************/
+
+    * {
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #fff;
+
+    }
+
+    .error_body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-image: linear-gradient(120deg, #000000, #222f3e);
+
+    }
+
+    .container {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #343434;
+    }
+
+    .container h1 {
+        font-size: 200px;
+        margin: 0;
+        font-weight: 0;
+        letter-spacing: 15px;
+        background: url(https://radiokameleon.ba/wp-content/uploads/2017/03/miroljub.jpg) center no-repeat;
+        /* background: url(https://www.vreme.com/g/images/1661477_31-Dew0w17WkAAeWaK.jpg) center no-repeat; */
+        -webkit-text-fill-color: transparent;
+        /* -webkit-background-clip: text; */
+        color: #fff;
+    }
+
+    .container a {
+        text-decoration: none;
+        background: #e67e22;
+        color: #fff;
+        padding: 12px 24px;
+        display: inline-block;
+        border-radius: 25px;
+        font-size: 14px;
+        transition: 0.4s;
+    }
+
+    .container a:hover {
+        background: #d35400;
+    }
+
+    iframe {
+        border-radius: 50%;
+        width: 350px;
+    }
+</style>
+
+<body class="error_body">
+    <div class="container">
+        <h2>Greska</h2>
+        <!-- <h1>404</h1> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PpW7J7IXJQM?&autoplay=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <p>Ne možemo da pronađemo stranicu</p>
+        <a href="index.html">nazad</a>
+    </div>
+</body>
+
+</html>

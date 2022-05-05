@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="gallery-body">
+    <div class="navbar navbar-gallery" id="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html#head">Početna</a></li>
+                <li><a href="about.html">O meni</a></li>
+                <li><a href="gallery.html">Galerija</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+            <h3 class="animate__animated animate__backInLeft">Magija bebo</h3>
+        </nav>
+    </div>
+    <div class="navbar-responsive">
+        <a href="index.html#head" class="active"><span>Magija bebo</span></a>
+        <div id="myLinks">
+            <a href="index.html#head">Početna</a>
+            <a href="about.html">O meni</a>
+            <a href="gallery.html">Galerija</a>
+            <a href="contact.html">Kontakt</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="gallery-wrapper">
+        <h1 style="color: aliceblue;">Galerija</h1>
+
+        <div class="gallery-row" data-tilt data-tilt-axis="x">
+            <div class="gallery-col">
+                <iframe src="https://www.youtube.com/embed/jxBW1TfA81A" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="gallery-col">
+                <h3>Bojanov nastup u Amidzi Show-u</h3>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="gallery-row" data-tilt data-tilt-axis="x">
+            <div class="gallery-col">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dquWQuzpK1Q"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="gallery-col">
+                <h3>Nastup na Tv Prva</h3>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="gallery-row" data-tilt data-tilt-axis="x">
+            <div class="gallery-col">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dCLqBYt2gQg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="gallery-col">
+                <h3>Nastup na Pinkovim Zvezdama</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="parallax3">
+        <div class="footer-content">
+            <h1>Zaprati me na društvenim mrežama</h1>
+            <p>Magija je svuda oko nas. Ona je tajanstvena, neobjašnjiva i neuhvatljiva. Zbog toga nekada ne uspevamo da
+                je vidimo, ali je možda baš zbog toga svi volimo i svi u njoj uživamo.</p>
+            <ul class="socials">
+                <li><a href="https://www.youtube.com/c/Bojanmagic/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/bokac_97" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.facebook.com/madjionicarbojan" target="_blank"><i
+                            class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.tiktok.com/@bokac_97" target="_blank"><i class="fab fa-tiktok"></i></i></a>
+                </li>
+
+                <!-- <li><a href="error404.html"><i class="fa fa-whatsapp"></i></a></li> -->
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 designed by <a href="https://nikola93kg.github.io" target="_blank">nikola93kg</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/vanilla-tilt.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body class="contactBody">
+  <div class="navbar" id="navbar">
+    <nav>
+      <ul>
+        <li><a href="index.html#head">Početna</a></li>
+        <li><a href="#">Programi</a></li>
+        <li><a href="about.html">O meni</a></li>
+        <li><a href="gallery.html">Galerija</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+      <h3 class="animate__animated animate__backInLeft">Magija bebo</h3>
+    </nav>
+  </div>
+  <div class="navbar-responsive">
+    <a href="index.html#head" class="active"><span>Magija bebo</span></a>
+    <div id="myLinks">
+      <a href="index.html#head">Početna</a>
+      <a href="about.html">O meni</a>
+      <a href="gallery.html">Galerija</a>
+      <a href="contact.html">Kontakt</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <div class="contact-section">
+
+    <h1>Rezervišite vašu predstavu</h1>
+    <div class="border">magija bebo</div>
+    <div class="form-wrap">
+      <div class="form-col">
+
+        <img src="https://i.ibb.co/hMxz6CK/Whats-App-Image-2022-03-20-at-17-30-08.jpg" alt="phone">
+        <div class="cont-phone">
+          <i class="fa fa-phone"><span><a href="tel:{+381669544834}">066/954-4834</a></span></i>
+          <i class="fa fa-envelope"><span><a
+                href="mailto:bojanmadjionicar97@gmail.com">bojanmadjionicar97@gmail.com</a></span></i>
+        </div>
+
+
+
+      </div>
+      <form class="contact-form" action="email.php" method="post">
+        <input type="text" name="name" class="contact-form-text" placeholder="Ime i prezime" required>
+        <input type="email" name="email" class="contact-form-text" placeholder="E-mail adresa" required>
+        <input type="text" name="subject" class="contact-form-text" placeholder="Naslov poruke">
+        <textarea class="contact-form-text" name="message" placeholder="Tvoja poruka" required></textarea>
+        <input type="submit" name="submit" class="contact-form-btn" value="Pošalji">
+      </form>
+
+    </div>
+
+    <div class="divider"></div>
+  </div>
+
+  <footer class="parallax3 contact-footer">
+    <div class="footer-content">
+      <h1>Zaprati me na društvenim mrežama</h1>
+      <p>Magija je svuda oko nas. Ona je tajanstvena, neobjašnjiva i neuhvatljiva. Zbog toga nekada ne uspevamo da
+        je vidimo, ali je možda baš zbog toga svi volimo i svi u njoj uživamo.</p>
+      <ul class="socials">
+        <li><a href="https://www.youtube.com/c/Bojanmagic/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li><a href="https://www.instagram.com/bokac_97" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/madjionicarbojan" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.tiktok.com/@bokac_97" target="_blank"><i class="fab fa-tiktok"></i></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy;2022 designed by <a href="https://nikola93kg.github.io" target="_blank">nikola93kg</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    window.addEventListener('scroll', function () {
+      const navbar = document.getElementById("navbar");
+      navbar.classList.toggle('stickyNav', window.scrollY > 0);
+    });
+  </script>
+
+</body>
+
+</html>
